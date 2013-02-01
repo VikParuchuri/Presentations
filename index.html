@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Freeform Grading at edX</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Freeform Grading at edX">
+  <meta name="author" content="">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+    <link rel="stylesheet" href = "assets/css/ribbons.css">
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    <!-- END LOGO SLIDE -->
+    
+
+    <!-- TITLE SLIDE -->
+    <!-- Should I move this to a Local Layout File? -->
+    <slide class="title-slide segue nobackground">
+      <hgroup class="auto-fadein">
+        <h1>Freeform Grading at edX</h1>
+        <h2></h2>
+        <p><br/></p>
+      </hgroup>
+          </slide>
+
+    <!-- SLIDES -->
+      <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Freeform Grading Overview</h2>
+  </hgroup>
+  <article>
+    <h4>What is freeform grading?</h4>
+
+<ul>
+<li>Freeform grading is the automatic scoring of student free text responses.</li>
+</ul>
+
+<h4>Why is freeform grading important?</h4>
+
+<ul>
+<li>Freeform grading allows humanities courses to teach using open ended questions.</li>
+<li>Freeform grading can provide feedback to students in a variety of ways that &quot;closed-ended&quot; question types cannot.</li>
+<li>Allowing students to interact with open ended questions has significant pedagogical value.</li>
+</ul>
+
+<h4>What does edX have to allow freeform grading?</h4>
+
+<ul>
+<li>The learning sciences team at edX has been developing several prototype grading technologies to score free form responses.
+
+<ul>
+<li>The development has been user-driven, and all of the technologies offer significant flexibility.</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Freeform Grading at edX</h2>
+  </hgroup>
+  <article>
+    <h4>Self Assessment</h4>
+
+<ul>
+<li>Self assessment allows students to answer a question, see a rubric, and rate themselves.
+
+<ul>
+<li>Has pedagogical value for the student, and requires no grading effort from course staff.</li>
+<li>Several self assessment questions were piloted in the Fall of 2012 with positive student response.</li>
+</ul></li>
+</ul>
+
+<h4>Machine Learning (ML) Assessment</h4>
+
+<ul>
+<li>ML assessment involves students submitting a response, and an algorithm scoring it.
+
+<ul>
+<li>ML is trained on set number of course staff responses, and then automatically grades students.</li>
+<li>Somewhat equivalent to course staff grading each student individually, but with much less effort.</li>
+<li>Also piloted in the Fall of 2012 (more on this in the coming slides).</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Freeform Grading at edX Continued</h2>
+  </hgroup>
+  <article>
+    <h4>Peer Assessment</h4>
+
+<ul>
+<li>Peer assessment involves students giving each other scores and feedback
+
+<ul>
+<li>Significant pedagogical value for both the student being graded and the grader.</li>
+<li>Graders first learn how to grade the problem by looking at instructor graded examples.</li>
+<li>Features such as smart peer matching and flagging address concerns with previous online peer grading implementations.</li>
+</ul></li>
+</ul>
+
+<h4>Flexible Assessment Types</h4>
+
+<ul>
+<li>Any of the previous 3 assessement types can be used together.
+
+<ul>
+<li>A single student response can pass through any combination of graders.</li>
+<li>For example, a response could be first peer graded, then ML graded, and then self assess their performance.</li>
+</ul></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Current Student Problem Interface</h2>
+  </hgroup>
+  <article>
+    <table><thead>
+<tr>
+<th>Student Submission</th>
+<th>Student Self-Assesses</th>
+<th>External Grader Results</th>
+</tr>
+</thead><tbody>
+<tr>
+<td><img src="assets/img/submission_box_small.png" alt="alt text"></td>
+<td><img src="assets/img/self_assessment_rate_small.png" alt="alt text"></td>
+<td><img src="assets/img/grader_result_box_small.png" alt="alt text"></td>
+</tr>
+</tbody></table>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>2012 Fall ML Pilot</h2>
+  </hgroup>
+  <article>
+    <h4>Overview</h4>
+
+<ul>
+<li>ML grading and self assessment were piloted in a chemistry course (3.091x) to gauge student reactions and to give us data to strengthen our products.</li>
+</ul>
+
+<h4>Results</h4>
+
+<ul>
+<li>Self Assessment
+
+<ul>
+<li>Student reaction to self-assessment was positive.</li>
+<li>Heavily used by course staff due to simplicity of implementation.</li>
+</ul></li>
+<li>ML Grading
+
+<ul>
+<li>The ML grading product used was an early prototype.</li>
+<li>Student surveys indicated that the ML score was very accurate, but that there needed to be more feedback from the ML.</li>
+</ul></li>
+</ul>
+
+<h4>Takeaways/Lessons</h4>
+
+<ul>
+<li>Give students better feedback from all grader types.</li>
+<li>Give students a way to discuss their scores (we incorporated our survey mechanism late).</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Pilot Student Data</h2>
+  </hgroup>
+  <article>
+    <p><img src="figure/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Pilot ML Accuracy</h2>
+  </hgroup>
+  <article>
+    <p><img src="figure/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Questions?</h2>
+  </hgroup>
+  <article>
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+
+  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+<!-- Grab CDN jQuery, fall back to local if offline -->
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+<script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery-1.7.min.js"><\/script>')</script>
+<!-- Load Javascripts for Widgets -->
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+</html>
