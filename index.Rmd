@@ -74,7 +74,7 @@ Student Submission  |  Student Self-Assesses | External Grader Results
   * Student reaction to self-assessment was positive.
   * Heavily used by course staff due to simplicity of implementation.
 * ML Grading
-  * The ML grading product used was an early prototype.
+  * The ML grading product used was an early prototype, and accuracy was lower than it is now.
   * Student surveys indicated that the ML score was very accurate, but that there needed to be more feedback from the ML.
 
 #### Takeaways/Lessons
