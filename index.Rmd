@@ -1,7 +1,7 @@
 ---
 title       : Freeform Grading at edX
 subtitle    : 
-author      : 
+author      : Piotr Mitros/Vik Paruchuri/Diana Huang
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
@@ -18,44 +18,41 @@ library(ggplot2)
 ## Freeform Grading Overview
 
 #### What is freeform grading?
-* Freeform grading is the automatic scoring of student free text responses.
+* A set of technologies that enable feedback and scores to be generated for open ended student responses.
+* Includes and integrates: peer grading, self assessment, artificial intelligence (AI) assessment, and instructor grading. 
 
 #### Why is freeform grading important?
-* Freeform grading allows humanities courses to be taught using open ended questions.
-* Freeform grading can provide feedback to students in a variety of ways that "closed-ended" question types cannot.
-* Allowing students to interact with open ended questions has significant pedagogical value.
-
-#### What does edX have to allow freeform grading?
-* The learning sciences team at edX has been developing several prototype grading technologies to score free form responses.
-  * The development has been user-driven, and all of the technologies offer significant flexibility.
+* Allows grading of questions not supported by simple computational heuristics.
+* Permits use of Socratic method in learning sequences on open-ended topics. 
+* Allows students to learn by reviewing and discussing work. 
 
 ---
-## Freeform Grading at edX
-
-#### Self Assessment
+## Self Assessment
 * Self assessment allows students to answer a question, see a rubric, and rate themselves.
-  * Has pedagogical value for the student, and requires no grading effort from course staff.
+  * Requires no grading effort from course staff.
+  * Particularly valuable in learning sequences where the goal is to learn by constructing knowledge.
   * Several self assessment questions were piloted in the Fall of 2012 with positive student response.
 
-#### Machine Learning (ML) Assessment
-* ML assessment involves students submitting a response, and an algorithm scoring it.
-  * ML creates a model using 100 course staff graded responses. This model is then used to automatically grade students.
-  * Somewhat equivalent to course staff grading each student individually, but with much less effort.
+---
+## AI Assessment
+* A computer algorithm scores student submission.
+  * Machine Learning (ML) creates a model using 100 course staff graded responses. 
+  * This model is used to automatically grade students.
+  * For many problems, similar to course staff grading each student individually, but with much less effort.
   * Also piloted in the Fall of 2012 (more on this in the coming slides).
 
 ---
-## Freeform Grading at edX Continued
-
-#### Peer Assessment
+## Peer Assessment
 * Peer assessment involves students giving each other scores and feedback
   * Significant pedagogical value for both the student being graded and the grader.
   * Graders first learn how to grade the problem by looking at instructor graded examples.
   * Features such as smart peer matching and user flagging of inappropriate submissions address concerns with previous online peer grading implementations.
 
-#### Flexible Assessment Types
+---
+## Flexible Assessment Types
 * Any of the previous 3 assessement types can be used together.
   * A single student response can pass through any combination of graders.
-  * For example, a response could be first peer graded, and then ML graded, after which students could self-assess their performance.
+  * For example, a response could be self-assessed, then ML graded. If the two mismatch, peer grading can be used to confirm.
 
 ---
 ## Current Student Problem Interface
@@ -92,7 +89,7 @@ student_satisfaction_bar
 ## Pilot ML Accuracy
 
 ```{r fig.width=14, fig.height=8, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
-ml_scoring_bar
+ml_scoring_dot
 ```
 
 ---
