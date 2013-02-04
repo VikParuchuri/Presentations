@@ -79,6 +79,12 @@ Student Submission  |  Student Self-Assesses | External Grader Results
 * Give students a way to discuss their scores (we incorporated our survey mechanism late).
 
 ---
+## Pilot Questions
+Distillation  |  Crosslinking | Surfactants
+------------- | ------------- | -------------
+![alt text](assets/img/chem_distillation_small.png) | ![alt text](assets/img/chem_crosslinking_small.png) | ![alt text](assets/img/chem_surfactants_small.png)
+
+---
 ## Pilot Student Data
 
 ```{r fig.width=14, fig.height=8, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
@@ -90,6 +96,13 @@ student_satisfaction_bar
 
 ```{r fig.width=14, fig.height=8, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
 ml_scoring_dot
+```
+
+---
+## Pilot ML Accuracy - No Color
+
+```{r fig.width=14, fig.height=8, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
+ml_scoring_dot_nocolor
 ```
 
 ---
