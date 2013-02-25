@@ -100,14 +100,14 @@ ml_scoring_dot
 ```
 
 ---
-## ML Error - HSA Dataset cont.
+## ML Error - HSA Dataset
 
 ```{r fig.width=14, fig.height=8, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
 ml_err_cv
 ```
 
 ---
-## ML Error - HSA Dataset
+## ML Error - HSA Dataset Cont.
 
 ```{r fig.width=14, fig.height=8, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
 ml_err

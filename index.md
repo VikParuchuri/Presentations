@@ -93,13 +93,13 @@ Distillation  |  Crosslinking | Surfactants
 
 
 ---
-## ML Error - HSA Dataset cont.
+## ML Error - HSA Dataset
 
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
 
 
 ---
-## ML Error - HSA Dataset
+## ML Error - HSA Dataset Cont.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
