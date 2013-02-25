@@ -54,7 +54,7 @@ mode        : selfcontained # {standalone, draft}
 ## Current Student Problem Interface
 Student Submission  |  Student Self-Assesses | External Grader Results
 ------------- | ------------- | -------------
-![alt text](assets/img/submission_box_small.png) | ![alt text](assets/img/self_assessment_rate_small.png) | ![alt text](assets/img/grader_result_box_small.png)
+<img src="assets/img/submission_box_new.png" height="500px" width="300px"/> | <img src="assets/img/self_assessment_rate_new.png" height="500px" width="300px"/> | <img src="assets/img/grader_result_box_new.png" height="500px" width="300px"/>
 
 ---
 ## 2012 Fall Pilot
@@ -78,7 +78,7 @@ Student Submission  |  Student Self-Assesses | External Grader Results
 ## Pilot Questions
 Distillation  |  Crosslinking | Surfactants
 ------------- | ------------- | -------------
-![alt text](assets/img/chem_distillation_small.png) | ![alt text](assets/img/chem_crosslinking_small.png) | ![alt text](assets/img/chem_surfactants_small.png)
+<img src="assets/img/chem_distillation.png" height="500px" width="300px"/> | <img src="assets/img/chem_crosslinking.png" height="500px" width="300px"/> | <img src="assets/img/chem_surfactants.png" height="500px" width="300px"/>
 
 ---
 ## Pilot Student Data
@@ -93,9 +93,15 @@ Distillation  |  Crosslinking | Surfactants
 
 
 ---
-## Pilot ML Accuracy - No Color
+## ML Error - HSA Dataset cont.
 
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+
+
+---
+## ML Error - HSA Dataset
+
+![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
 
 ---

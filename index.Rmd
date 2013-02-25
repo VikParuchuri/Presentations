@@ -13,6 +13,7 @@ mode        : selfcontained # {standalone, draft}
 wd="/home/vik/mitx_all/vik_sandbox/grading_slides/Freeform_Grading"
 setwd(wd)
 load("plotdata.RData")
+load("/home/vik/mitx_all/vik_sandbox/hewlett_essay_data/hewlettdata.RData")
 library(ggplot2)
 ```
 ## Freeform Grading Overview
@@ -58,7 +59,7 @@ library(ggplot2)
 ## Current Student Problem Interface
 Student Submission  |  Student Self-Assesses | External Grader Results
 ------------- | ------------- | -------------
-![alt text](assets/img/submission_box_small.png) | ![alt text](assets/img/self_assessment_rate_small.png) | ![alt text](assets/img/grader_result_box_small.png)
+<img src="assets/img/submission_box_new.png" height="500px" width="300px"/> | <img src="assets/img/self_assessment_rate_new.png" height="500px" width="300px"/> | <img src="assets/img/grader_result_box_new.png" height="500px" width="300px"/>
 
 ---
 ## 2012 Fall Pilot
@@ -82,7 +83,7 @@ Student Submission  |  Student Self-Assesses | External Grader Results
 ## Pilot Questions
 Distillation  |  Crosslinking | Surfactants
 ------------- | ------------- | -------------
-![alt text](assets/img/chem_distillation_small.png) | ![alt text](assets/img/chem_crosslinking_small.png) | ![alt text](assets/img/chem_surfactants_small.png)
+<img src="assets/img/chem_distillation.png" height="500px" width="300px"/> | <img src="assets/img/chem_crosslinking.png" height="500px" width="300px"/> | <img src="assets/img/chem_surfactants.png" height="500px" width="300px"/>
 
 ---
 ## Pilot Student Data
@@ -99,10 +100,17 @@ ml_scoring_dot
 ```
 
 ---
-## Pilot ML Accuracy - No Color
+## ML Error - HSA Dataset cont.
 
 ```{r fig.width=14, fig.height=8, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
-ml_scoring_dot_nocolor
+ml_err_cv
+```
+
+---
+## ML Error - HSA Dataset
+
+```{r fig.width=14, fig.height=8, echo=FALSE, warning=FALSE, results='hide', message=FALSE}
+ml_err
 ```
 
 ---
